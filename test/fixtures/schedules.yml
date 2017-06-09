@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2017-06-08
+  time: 2017-06-08 22:21:01
+  company_id: 
+  professional_id: 
+  customer_id: 
+
+two:
+  date: 2017-06-08
+  time: 2017-06-08 22:21:01
+  company_id: 
+  professional_id: 
+  customer_id: 
