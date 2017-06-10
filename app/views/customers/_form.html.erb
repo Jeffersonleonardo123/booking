@@ -12,6 +12,10 @@
   <% end %>
 
   <div class="field">
+    <%= f.label :company_id %><br>
+    <%= f.collection_select :company_id, Company.all, :id, :name %>
+  </div>
+  <div class="field">
     <%= f.label :fullname %><br>
     <%= f.text_field :fullname %>
   </div>
@@ -46,10 +50,6 @@
   <div class="field">
     <%= f.label :email %><br>
     <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :company_id %><br>
-    <%= f.text_field :company_id %>
   </div>
   <div class="actions">
     <%= f.submit %>

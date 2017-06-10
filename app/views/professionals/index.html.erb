@@ -31,7 +31,7 @@
         <td><%= professional.zip %></td>
         <td><%= professional.phone %></td>
         <td><%= professional.active %></td>
-        <td><%= professional.company %></td>
+        <td><%= professional.company.name %></td>
         <td><%= link_to 'Show', professional %></td>
         <td><%= link_to 'Edit', edit_professional_path(professional) %></td>
         <td><%= link_to 'Destroy', professional, method: :delete, data: { confirm: 'Are you sure?' } %></td>
